@@ -1,0 +1,28 @@
+Years used: 1991-2008  firm-years=108399  firms=15320
+Fraud firm-years=837  fraud rate=0.7721%
+Raw vars used (28): ['act', 'ap', 'at', 'ceq', 'che', 'cogs', 'csho', 'dlc', 'dltis', 'dltt', 'dp', 'ib', 'invt', 'ivao', 'ivst', 'lct', 'lt', 'ni', 'ppegt', 'pstk', 're', 'rect', 'sale', 'sstk', 'txp', 'txt', 'xint', 'prcc_f']
+Ratio vars used (14): ['dch_wc', 'ch_rsst', 'dch_rec', 'dch_inv', 'soft_assets', 'ch_cs', 'ch_cm', 'ch_roa', 'issue', 'bm', 'dpi', 'reoa', 'ebit', 'ch_fcf']
+Beneish component coverage (non-missing share): DSRI=79%, GMI=81%, AQI=84%, SGI=81%, DEPI=83%, LVGI=85%, TATA=85%
+[Random (firm-grouped)] train n=80909 fraud=589 (0.728%) | test n=27490 fraud=248 (0.902%)
+[SOX out-of-time] train n=60741 fraud=355 (0.584%) | test n=35166 fraud=261 (0.742%)
+Fraud firm-years by year:
+       size  sum
+fyear           
+1991   4713   27
+1992   4970   26
+1993   5377   30
+1994   5684   23
+1995   6230   22
+1996   6745   33
+1997   6789   42
+1998   6716   56
+1999   6828   73
+2000   6752   86
+2001   6362   81
+2002   6067   77
+2003   5981   69
+2004   5934   58
+2005   5863   45
+2006   5908   33
+2007   5868   30
+2008   5612   26

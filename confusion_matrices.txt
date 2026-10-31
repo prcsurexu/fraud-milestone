@@ -1,0 +1,59 @@
+[Random (firm-grouped)] Beneish M-score (fixed) | flag top 1% (k=275)
+           pred=0   pred=1
+  actual=0    26969      273
+  actual=1      246        2
+
+[Random (firm-grouped)] Beneish M-score (fixed) | flag M > -1.78 (Beneish threshold), flagged=4345
+           pred=0   pred=1
+  actual=0    22944     4298
+  actual=1      201       47
+
+[Random (firm-grouped)] Dechow-ratio logit | flag top 1% (k=275)
+           pred=0   pred=1
+  actual=0    26971      271
+  actual=1      244        4
+
+[Random (firm-grouped)] Logit (28 raw) | flag top 1% (k=275)
+           pred=0   pred=1
+  actual=0    26988      254
+  actual=1      227       21
+
+[Random (firm-grouped)] Random Forest | flag top 1% (k=275)
+           pred=0   pred=1
+  actual=0    26986      256
+  actual=1      229       19
+
+[Random (firm-grouped)] Gradient Boosting | flag top 1% (k=275)
+           pred=0   pred=1
+  actual=0    26982      260
+  actual=1      233       15
+
+[SOX out-of-time] Beneish M-score (fixed) | flag top 1% (k=352)
+           pred=0   pred=1
+  actual=0    34556      349
+  actual=1      258        3
+
+[SOX out-of-time] Beneish M-score (fixed) | flag M > -1.78 (Beneish threshold), flagged=5416
+           pred=0   pred=1
+  actual=0    29533     5372
+  actual=1      217       44
+
+[SOX out-of-time] Dechow-ratio logit | flag top 1% (k=352)
+           pred=0   pred=1
+  actual=0    34554      351
+  actual=1      260        1
+
+[SOX out-of-time] Logit (28 raw) | flag top 1% (k=352)
+           pred=0   pred=1
+  actual=0    34557      348
+  actual=1      257        4
+
+[SOX out-of-time] Random Forest | flag top 1% (k=352)
+           pred=0   pred=1
+  actual=0    34556      349
+  actual=1      258        3
+
+[SOX out-of-time] Gradient Boosting | flag top 1% (k=352)
+           pred=0   pred=1
+  actual=0    34556      349
+  actual=1      258        3
